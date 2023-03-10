@@ -1,0 +1,101 @@
+/*
+Theme Name: Leanex Lite
+Description: Used to style the Gutenberg editor.
+*/
+
+.mceContentBody {
+	font-size: 14px;
+	line-height: 1.5;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.mceContentBody h1,
+.mceContentBody h2,
+.mceContentBody h3,
+.mceContentBody h4,
+.mceContentBody h5,
+.mceContentBody h6 {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.4;
+    clear: both;
+}
+
+.mceContentBody h1 {
+	font-size: 42px;
+}
+
+.mceContentBody h5,
+.mceContentBody h6 {
+    text-transform: uppercase;
+}
+
+/* Main column width */
+.wp-block {
+    max-width: 720px;
+}
+/*
+.wp-block-image img {
+    width: calc( 100vw - 58.2%);
+    max-width: calc( 45vw + 10.5%);
+}
+*/
+
+.editor-post-title__block {
+  margin-bottom: 100px;
+}
+
+.edit-post-visual-editor,
+.edit-post-visual-editor p,
+.editor-visual-editor,
+.editor-visual-editor p {
+	font: 14px/24px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.editor-post-title__input,
+.editor-post-title textarea.editor-post-title__input,
+.editor-block-list__block[data-type="core/heading"] h1,
+.editor-block-list__block[data-type="core/heading"] h2,
+.editor-block-list__block[data-type="core/heading"] h3,
+.editor-block-list__block[data-type="core/heading"] h4,
+.editor-block-list__block[data-type="core/heading"] h5,
+.editor-block-list__block[data-type="core/heading"] h6 {
+	clear: both;
+	line-height: 1.4;
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.9);
+}
+
+.editor-post-title textarea.editor-post-title__input,
+.editor-post-title__input,
+.editor-block-list__block[data-type="core/heading"] h1 {
+	font-size: 42px;
+}
+
+.editor-post-title__input,
+.editor-block-list__block[data-type="core/heading"] h5,
+.editor-block-list__block[data-type="core/heading"] h6 {
+	text-transform: uppercase;
+}
+
+p {
+   	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	margin-bottom: 1.5em;
+}
+
+.aligncenter .blocks-rich-text {
+    	text-align: center;
+}
+
+.editor-rich-text b,
+.editor-rich-text strong {
+    font-weight: 700;
+}
+
+.wp-block-cover .wp-block-cover-text {
+    font-size: 36px;
+	font-weight: 700;
+    text-transform: uppercase;
+}
