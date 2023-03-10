@@ -1,0 +1,269 @@
+0000.000 (0) Opened log file at time: Tue, 21 Feb 2023 02:49:31 +0000 on https://lomatom.xsrv.jp/wp
+0000.002 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 5.3.14 PHP: 7.4.33 (cgi-fcgi, Linux sv8170.xserver.jp 4.4.0-233-generic #267-Ubuntu SMP Thu Aug 11 22:47:51 UTC 2022 x86_64) MySQL: 5.7.27 (max packet size=25165824) WPLANG: ja Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 200M (used: 8.8M | 2M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.003 (0) Free space on disk containing Updraft's temporary directory: 749574.4 MB
+0000.004 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.006 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.008 (0) Set semaphore last lock (fd) time to 2023-02-21 02:49:31
+0000.009 (0) Semaphore lock (fd) complete
+0000.011 (0) Backup run: resumption=0, nonce=6aec06d2ebc7, file_nonce=6aec06d2ebc7 begun at=1676947771 (0s ago), job type=backup
+0000.012 (0) Scheduling a resumption (1) after 300 seconds (1676948071) in case this run gets aborted
+0000.036 (0) Checking if we have a zip executable available
+0000.037 (0) Testing: /usr/bin/zip
+0000.083 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.123 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.146 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.162 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.178 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.258 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.276 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.295 (0) Working binary zip found: /usr/bin/zip
+0000.339 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.386 (0) Creation of backups of directories: beginning
+0000.566 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.678 (0) Total entities for the zip file: 219 directories, 1381 files (0 skipped as non-modified), 26.1 MB
+0000.705 (0) Zip: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.720 (0) Zip: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.768 (0) Zip: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.784 (0) Zip: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.793 (0) Zip: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.840 (0) Zip: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.842 (0) Zip: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.843 (0) Zip: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.845 (0) Zip: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.847 (0) Zip: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.879 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (22.1 MB, 1381 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.987 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-plugins.zip.tmp: size is now: 6.60 MB
+0002.006 (0) Zip: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-plugins.zip.tmp: 1100 files added (on-disk size: 6791.7 KB)
+0002.008 (0) Zip: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-plugins.zip.tmp: 1200 files added (on-disk size: 6791.7 KB)
+0002.010 (0) Zip: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-plugins.zip.tmp: 1300 files added (on-disk size: 6791.7 KB)
+0002.317 (0) Creating zip file manifest (backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-plugins.zip.list-temp.tmp)
+0002.341 (0) Successfully created zip file manifest (size: 117945)
+0002.510 (0) Created plugins zip (0) - 7949.2 KB in 1.9 s (4296.2 KB/s) (sha1: 198b03f880b6ac7dd421c766e2fdad2e718da724, sha256: 715d64b8dc336d200082f7c166369f8eaa04837159172c6984ad8ba7bd9490d6)
+0002.638 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0002.687 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-3a6640dc993a07a279d9c46907791f1d)
+0003.842 (0) Google Drive: quota usage: used=158845.7 MB, total=2097152 MB, available=1938306.3 MB
+0003.844 (0) Google Drive: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-plugins.zip: Attempting to upload to Google Drive (into folder id: 1naktoDk2I6DKX8PzB6moOG2T3AK5ANva)
+0005.151 (0) Googledrive chunked upload: 12.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 10.1 / 6)
+0005.758 (0) Googledrive chunked upload: 38.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 10.1 / 6)
+0006.279 (0) Googledrive chunked upload: 90.2 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 10.1 / 6)
+0007.871 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0007.873 (0) Google Drive: OK: Archive backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-plugins.zip uploaded in 4.03 seconds
+0007.874 (0) Recording as successfully uploaded: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-plugins.zip
+0007.877 (0) Deleting local file: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-plugins.zip: OK
+0007.897 (0) Beginning creation of dump of themes (split every: 400 MB)
+0007.926 (0) Total entities for the zip file: 158 directories, 727 files (0 skipped as non-modified), 15.1 MB
+0007.948 (0) Zip: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.964 (0) Zip: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0007.966 (0) Zip: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0007.968 (0) Zip: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0007.970 (0) Zip: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0007.972 (0) Zip: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0007.973 (0) Zip: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0008.632 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-themes.zip.tmp: size is now: 7.90 MB
+0008.646 (0) Creating zip file manifest (backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-themes.zip.list-temp.tmp)
+0008.669 (0) Successfully created zip file manifest (size: 42866)
+0008.854 (0) Created themes zip (0) - 8086.5 KB in 0.9 s (8663 KB/s) (sha1: 2e0dc55135847f246debab6c5a1568d190a24f94, sha256: 6c9f9990616c3533e119fc61c9318db11dad0b5bd945e3095c250f8210d88e72)
+0008.927 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0008.928 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-3a6640dc993a07a279d9c46907791f1d)
+0009.291 (0) Google Drive: quota usage: used=158853.5 MB, total=2097152 MB, available=1938298.5 MB
+0009.335 (0) Google Drive: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-themes.zip: Attempting to upload to Google Drive (into folder id: 1naktoDk2I6DKX8PzB6moOG2T3AK5ANva)
+0011.956 (0) Googledrive chunked upload: 12.7 % uploaded (1048576)
+0012.436 (0) Googledrive chunked upload: 25.3 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 10 / 6)
+0012.867 (0) Googledrive chunked upload: 50.7 % uploaded (4194304 - increasing chunk size to 4096 KB - memory usage: 10 / 6)
+0014.549 (0) Googledrive chunked upload: 100 % uploaded (4194304)
+0014.551 (0) Google Drive: OK: Archive backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-themes.zip uploaded in 5.15 seconds
+0014.551 (0) Recording as successfully uploaded: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-themes.zip
+0014.554 (0) Deleting local file: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-themes.zip: OK
+0014.556 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0014.557 (0) Looking for candidates to backup in: /home/lomatom/lomatom.xsrv.jp/public_html/wp/wp-content/uploads
+0014.557 (0) finding files: 2019: adding to list (1)
+0014.557 (0) finding files: 2020: adding to list (2)
+0014.558 (0) finding files: 2021: adding to list (3)
+0014.558 (0) finding files: 2022: adding to list (4)
+0014.559 (0) finding files: 2023: adding to list (5)
+0014.560 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0014.567 (0) Total entities for the zip file: 44 directories, 264 files (0 skipped as non-modified), 48.3 MB
+0014.569 (0) Zip: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0014.570 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25.1 MB, 264 files batched, 153 (153) added so far); re-opening (prior size: 0 KB)
+0014.744 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-uploads.zip.tmp: size is now: 25.10 MB
+0014.816 (0) A useful amount of data was added after this amount of zip processing: 0.6 s (normalised: 0.6 s, rate: 43349.5 KB/s)
+0014.818 (0) Performance is good - will increase the amount of data we attempt to batch (time=0.59285306930542, normalised_time=0.59054858178245, max_time=14.816919088364, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0014.819 (0) Zip: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-uploads.zip.tmp: 200 files added (on-disk size: 25736.7 KB)
+0015.010 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-uploads.zip.tmp: size is now: 48.30 MB
+0015.061 (0) Creating zip file manifest (backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-uploads.zip.list-temp.tmp)
+0015.083 (0) Successfully created zip file manifest (size: 13331)
+0015.666 (0) Created uploads zip (0) - 49508.2 KB in 1.1 s (46663.8 KB/s) (sha1: bef976758e02a3b7a6142dedf37ec08157e36134, sha256: 5ba6fc8cc400aca38244ac10fd843183e7a09c3d55c0f5e13b5877ff71f2b0e5)
+0015.794 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0015.832 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-3a6640dc993a07a279d9c46907791f1d)
+0016.113 (0) Google Drive: quota usage: used=158861.4 MB, total=2097152 MB, available=1938290.6 MB
+0016.135 (0) Google Drive: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-uploads.zip: Attempting to upload to Google Drive (into folder id: 1naktoDk2I6DKX8PzB6moOG2T3AK5ANva)
+0017.214 (0) Googledrive chunked upload: 2.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 9.9 / 6)
+0017.683 (0) Googledrive chunked upload: 6.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 10 / 6)
+0018.240 (0) Googledrive chunked upload: 14.5 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 10 / 6)
+0018.907 (0) Googledrive chunked upload: 31 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 10 / 6)
+0019.662 (0) Googledrive chunked upload: 64.1 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 10 / 6)
+0021.788 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0021.795 (0) Google Drive: OK: Archive backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-uploads.zip uploaded in 5.63 seconds
+0021.799 (0) Recording as successfully uploaded: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-uploads.zip
+0021.811 (0) Deleting local file: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-uploads.zip: OK
+0021.833 (0) Beginning backup of other directories found in the content directory (index: 0)
+0021.834 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0021.836 (0) Looking for candidates to backup in: /home/lomatom/lomatom.xsrv.jp/public_html/wp/wp-content
+0021.838 (0) finding files: index.php: adding to list (1)
+0021.840 (0) finding files: plugins: skipping: this is the plugins directory
+0021.842 (0) finding files: languages: adding to list (2)
+0021.844 (0) finding files: themes: skipping: this is the themes directory
+0021.846 (0) finding files: uploads: skipping: this is the uploads directory
+0021.863 (0) finding files: upgrade: skipping: excluded by options
+0021.880 (0) finding files: updraft: skipping: this is the updraft directory
+0021.912 (0) Total entities for the zip file: 3 directories, 43 files (0 skipped as non-modified), 2.9 MB
+0022.096 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-others.zip.tmp: size is now: 0.80 MB
+0022.100 (0) Creating zip file manifest (backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-others.zip.list-temp.tmp)
+0022.101 (0) Successfully created zip file manifest (size: 2186)
+0022.111 (0) Created others zip (0) - 801.2 KB in 0.2 s (3883.1 KB/s) (sha1: a351cf8b119b7c65acab1dcdcf394261d58447ca, sha256: 0387f1c29a5865f6e616c927ab9d06c6921b166a6a9ac183c771ac791662a7f3)
+0022.113 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0022.114 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-3a6640dc993a07a279d9c46907791f1d)
+0022.422 (0) Google Drive: quota usage: used=158909.7 MB, total=2097152 MB, available=1938242.3 MB
+0022.454 (0) Google Drive: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-others.zip: Attempting to upload to Google Drive (into folder id: 1naktoDk2I6DKX8PzB6moOG2T3AK5ANva)
+0024.850 (0) Googledrive chunked upload: 100 % uploaded
+0024.860 (0) Google Drive: OK: Archive backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-others.zip uploaded in 2.37 seconds
+0024.861 (0) Recording as successfully uploaded: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-others.zip
+0024.862 (0) Deleting local file: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-others.zip: OK
+0024.866 (0) Saving backup status to database (elements: 8)
+0024.867 (0) Beginning creation of database dump (WordPress DB)
+0024.868 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0024.869 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0024.912 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1543 bytes total)
+0024.925 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0024.932 (0) Table wp_options: Total expected rows (via COUNT): 311
+0024.932 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.950 (0) Table wp_options: Rows added in this batch (next record: 8322): 307 (uncompressed bytes in this segment=336310) in 0.02 seconds
+0024.958 (0) Table wp_options: finishing file(s) (2, 68.4 KB)
+0024.961 (0) Table wp_users: Total expected rows (via COUNT): 1
+0024.961 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.963 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1367) in 0.00 seconds
+0024.965 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0024.968 (0) Table wp_usermeta: Total expected rows (via COUNT): 27
+0024.969 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.971 (0) Table wp_usermeta: Rows added in this batch (next record: 27): 27 (uncompressed bytes in this segment=2542) in 0.00 seconds
+0024.974 (0) Table wp_usermeta: finishing file(s) (2, 1.3 KB)
+0024.977 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0024.979 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.00 seconds
+0024.981 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0024.992 (0) Table wp_comments: Total expected rows (via COUNT): 0
+0025.047 (0) Table wp_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1698) in 0.06 seconds
+0025.049 (0) Table wp_comments: finishing file(s) (2, 0.5 KB)
+0025.052 (0) Table wp_links: Total expected rows (via COUNT): 0
+0025.053 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0025.055 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0025.058 (0) Table wp_postmeta: Total expected rows (via COUNT): 155
+0025.059 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.063 (0) Table wp_postmeta: Rows added in this batch (next record: 366): 155 (uncompressed bytes in this segment=52590) in 0.01 seconds
+0025.067 (0) Table wp_postmeta: finishing file(s) (2, 5.9 KB)
+0025.071 (0) Table wp_posts: Total expected rows (via COUNT): 212
+0025.071 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.085 (0) Table wp_posts: Rows added in this batch (next record: 265): 212 (uncompressed bytes in this segment=348126) in 0.02 seconds
+0025.186 (0) Table wp_posts: finishing file(s) (2, 21 KB)
+0025.235 (0) Table wp_term_relationships: Total expected rows (approximate): 22
+0025.267 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 21 (uncompressed bytes in this segment=968) in 0.03 seconds
+0025.338 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0025.463 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 4
+0025.507 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.563 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1020) in 0.12 seconds
+0025.746 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0025.798 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0025.843 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.09 seconds
+0025.899 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0025.903 (0) Table wp_terms: Total expected rows (via COUNT): 4
+0025.904 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.906 (0) Table wp_terms: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=826) in 0.00 seconds
+0025.908 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0025.909 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_options.table.tmpr8323.gz (1/12/fopen): adding to final database dump
+0025.910 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_options.table.gz (2/12/fopen): adding to final database dump
+0025.911 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_users.table.tmpr2.gz (3/12/fopen): adding to final database dump
+0025.912 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_users.table.gz (4/12/fopen): adding to final database dump
+0025.912 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_usermeta.table.tmpr28.gz (5/12/fopen): adding to final database dump
+0025.912 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_usermeta.table.gz (6/12/fopen): adding to final database dump
+0025.913 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_commentmeta.table.tmpr0.gz (7/12/fopen): adding to final database dump
+0025.913 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_commentmeta.table.gz (8/12/fopen): adding to final database dump
+0025.914 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_comments.table.tmpr0.gz (9/12/fopen): adding to final database dump
+0025.914 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_comments.table.gz (10/12/fopen): adding to final database dump
+0025.915 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_links.table.tmpr0.gz (11/12/fopen): adding to final database dump
+0025.915 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_links.table.gz (12/12/fopen): adding to final database dump
+0025.916 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_postmeta.table.tmpr367.gz (13/12/fopen): adding to final database dump
+0025.916 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_postmeta.table.gz (14/12/fopen): adding to final database dump
+0025.917 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_posts.table.tmpr266.gz (15/12/fopen): adding to final database dump
+0025.917 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_posts.table.gz (16/12/fopen): adding to final database dump
+0025.918 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_term_relationships.table.tmpr100001.gz (17/12/fopen): adding to final database dump
+0025.919 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_term_relationships.table.gz (18/12/fopen): adding to final database dump
+0025.919 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_term_taxonomy.table.tmpr5.gz (19/12/fopen): adding to final database dump
+0025.919 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_term_taxonomy.table.gz (20/12/fopen): adding to final database dump
+0025.920 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_termmeta.table.tmpr0.gz (21/12/fopen): adding to final database dump
+0025.920 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_termmeta.table.gz (22/12/fopen): adding to final database dump
+0025.921 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_terms.table.tmpr5.gz (23/12/fopen): adding to final database dump
+0025.921 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db-table-wp_terms.table.gz (24/12/fopen): adding to final database dump
+0025.923 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db.gz: finished writing out complete database file (100.6 KB)
+0025.928 (0) Total database tables backed up: 12 (backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db.gz, size: 103130, sha1: a8358b689b09c7480b80ae03be498f7f18035590, sha256: 644932c23547fa578ec0ee0e922c2b5382269fe239dc15f8fee023c54e19d7a7)
+0025.933 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-plugins.zip: plugins: This file has already been successfully uploaded
+0025.933 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-themes.zip: themes: This file has already been successfully uploaded
+0025.933 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-uploads.zip: uploads: This file has already been successfully uploaded
+0025.934 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-others.zip: others: This file has already been successfully uploaded
+0025.934 (0) backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db.gz: db: This file has not yet been successfully uploaded: will queue
+0025.935 (0) Saving backup history. Total backup size: 64.9 MB
+0025.937 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0025.939 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0025.939 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-3a6640dc993a07a279d9c46907791f1d)
+0026.215 (0) Google Drive: quota usage: used=158910.5 MB, total=2097152 MB, available=1938241.5 MB
+0026.215 (0) Google Drive: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db.gz: Attempting to upload to Google Drive (into folder id: 1naktoDk2I6DKX8PzB6moOG2T3AK5ANva)
+0028.438 (0) Googledrive chunked upload: 100 % uploaded
+0028.615 (0) Google Drive: OK: Archive backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db.gz uploaded in 2.4 seconds
+0028.656 (0) Recording as successfully uploaded: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db.gz
+0028.719 (0) Deleting local file: backup_2023-02-21-1149_TONEGAWA_KOTOE_6aec06d2ebc7-db.gz: OK
+0028.754 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0028.763 (0) Number of backup sets in history: 3; groups (db): 1
+0028.763 (0) Examining (for databases) backup set with group_id=0, nonce=6aec06d2ebc7, datestamp=1676947771 (Feb 21 2023 02:49:31)
+0028.764 (0) This backup set is the backup set just made, so will not be deleted.
+0028.764 (0) Examining (for databases) backup set with group_id=0, nonce=7975f9759079, datestamp=1676947712 (Feb 21 2023 02:48:32)
+0028.764 (0) This backup set (1676947712) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0028.764 (0) Examining (for databases) backup set with group_id=0, nonce=61046e0597ac, datestamp=1576561622 (Dec 17 2019 05:47:02)
+0028.764 (0) 1576561622: db: this set includes a database (backup_2019-12-17-1447_TONEGAWA_KOTOE_61046e0597ac-db.gz); db count is now 2
+0028.764 (0) 1576561622: db: over retain limit (2); will delete this database
+0028.764 (0) Delete file: backup_2019-12-17-1447_TONEGAWA_KOTOE_61046e0597ac-db.gz, service=googledrive
+0029.525 (0) Google Drive: backup_2019-12-17-1447_TONEGAWA_KOTOE_61046e0597ac-db.gz: Deletion failed: file was not found
+0029.570 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0029.573 (0) Number of backup sets in history: 3; groups (files): 1
+0029.579 (0) Examining (for files) backup set with nonce=6aec06d2ebc7, datestamp=1676947771 (Feb 21 2023 02:49:31)
+0029.579 (0) This backup set is the backup set just made, so will not be deleted.
+0029.614 (0) This backup set is the backup set just made, so will not be deleted.
+0029.615 (0) This backup set is the backup set just made, so will not be deleted.
+0029.615 (0) This backup set is the backup set just made, so will not be deleted.
+0029.615 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0029.666 (0) Examining (for files) backup set with nonce=7975f9759079, datestamp=1676947712 (Feb 21 2023 02:48:32)
+0029.666 (0) This backup set (1676947712) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0029.666 (0) This backup set (1676947712) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0029.666 (0) This backup set (1676947712) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0029.666 (0) This backup set (1676947712) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0029.667 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0029.667 (0) Examining (for files) backup set with nonce=61046e0597ac, datestamp=1576561622 (Dec 17 2019 05:47:02)
+0029.667 (0) plugins: over retain limit (2); will delete this file entity
+0029.667 (0) themes: over retain limit (2); will delete this file entity
+0029.667 (0) uploads: over retain limit (2); will delete this file entity
+0029.667 (0) others: over retain limit (2); will delete this file entity
+0029.667 (0) Delete file: backup_2019-12-17-1447_TONEGAWA_KOTOE_61046e0597ac-plugins.zip, service=googledrive
+0029.699 (0) Delete file: backup_2019-12-17-1447_TONEGAWA_KOTOE_61046e0597ac-themes.zip, service=googledrive
+0029.726 (0) Delete file: backup_2019-12-17-1447_TONEGAWA_KOTOE_61046e0597ac-uploads.zip, service=googledrive
+0029.770 (0) Delete file: backup_2019-12-17-1447_TONEGAWA_KOTOE_61046e0597ac-others.zip, service=googledrive
+0030.277 (0) Google Drive: backup_2019-12-17-1447_TONEGAWA_KOTOE_61046e0597ac-plugins.zip: Deletion failed: file was not found
+0030.343 (0) Google Drive: backup_2019-12-17-1447_TONEGAWA_KOTOE_61046e0597ac-themes.zip: Deletion failed: file was not found
+0030.418 (0) Google Drive: backup_2019-12-17-1447_TONEGAWA_KOTOE_61046e0597ac-uploads.zip: Deletion failed: file was not found
+0030.443 (0) Google Drive: backup_2019-12-17-1447_TONEGAWA_KOTOE_61046e0597ac-others.zip: Deletion failed: file was not found
+0030.462 (0) This backup set is now empty; will remove from history
+0030.481 (0) Corresponding log file (log.61046e0597ac.txt) not found - must have already been deleted
+0030.530 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0030.586 (0) Resume backup (6aec06d2ebc7, 0): finish run
+0030.588 (0) Decremented the semaphore (fd) by 1
+0030.589 (0) Semaphore (fd) unlocked
+0030.590 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0030.593 (0) The backup apparently succeeded and is now complete
+0030.594 (0) No email will/can be sent - the user has not configured an email address.
+0030.595 (0) バックアップは成功し完了しました。
