@@ -4,7 +4,7 @@
 
 		<div class="featured-media">
 
-			<?php the_post_thumbnail(); ?>
+			<!-- <?php the_post_thumbnail(); ?> -->
 
 		</div><!-- .featured-media -->
 

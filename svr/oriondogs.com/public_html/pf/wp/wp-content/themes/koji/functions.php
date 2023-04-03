@@ -534,7 +534,7 @@ if ( ! function_exists( 'koji_get_post_meta' ) ) :
 
 			<div class="post-meta-wrapper<?php echo $post_meta_wrapper_classes; ?>">
 
-				<ul class="post-meta<?php echo $post_meta_classes; ?>">
+				<!-- <ul class="post-meta<?php echo $post_meta_classes; ?>">
 
 					<?php
 
@@ -625,7 +625,7 @@ if ( ! function_exists( 'koji_get_post_meta' ) ) :
 						</li>
 					<?php endif; ?>
 
-				</ul><!-- .post-meta -->
+				</ul> --><!-- .post-meta -->
 
 			</div><!-- .post-meta-wrapper -->
 

@@ -25,10 +25,18 @@
 				<?php endif; ?>
 
 				<p class="credits">
+					Copyright ©TonegawaKotoe All Rights Reserved.
+				</p><!-- .credits -->
+				<!-- <figure id="top_btn" style="display: flex;">
+					<div><img src="https://pf.oriondogs.com/wp/wp-content/uploads/2019/12/up_arrow.png" alt="矢印"></div>
+					<figcaption>TOP</figcaption>
+				</figure> -->
+
+				<!-- <p class="credits">
 					<?php
 					/* Translators: $s = name of the theme developer */
-					printf( _x( 'Theme by %s', 'Translators: $s = name of the theme developer', 'koji' ), '<a href="https://andersnoren.se">' . __( 'Anders Norén', 'koji' ) . '</a>' ); ?>
-				</p><!-- .credits -->
+					// printf( _x( 'Theme by %s', 'Translators: $s = name of the theme developer', 'koji' ), '<a href="https://andersnoren.se">' . __( 'Anders Norén', 'koji' ) . '</a>' ); ?>
+				</p> --><!-- .credits -->
 
 			</footer><!-- #site-footer -->
 			

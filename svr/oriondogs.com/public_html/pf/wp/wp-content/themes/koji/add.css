@@ -1,0 +1,41 @@
+/* カスタマイズによる追加分 */
+
+:root .has-background {
+    background-color: #e7e9ec;
+}
+body.single .entry-content > div > dl {
+    display: flex;
+}
+body.single .entry-content > div > dl dt {
+    width: 130px;
+    line-height: 2em;
+}
+body.single .entry-content > div > dl *:last-child {
+    margin: 0;
+    line-height: 2em;
+}
+/* #site-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+} */
+.header-top {
+    padding: 1rem 0;
+}
+@media (min-width: 1000px) {
+    .post-inner, .has-post-thumbnail .post-inner {
+        padding: 8rem 0 0;
+    }
+}
+@media (min-width: 600px) {
+    .comments-wrapper {
+        margin-top: 6rem;
+    }
+    .entry-content p.has-background {
+        padding: 1.3em 1.5em;
+        width: 100%;
+        font-size: 16px;
+        letter-spacing: 1px;
+        margin: 0 0 3em;
+    }
+}
