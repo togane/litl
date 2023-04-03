@@ -56,7 +56,7 @@ if ( $comments_number ) :
 
 <?php endif; ?>
 
-<?php if ( comments_open() || pings_open() ) :
+<!-- <?php if ( comments_open() || pings_open() ) :
 
 	comment_form( 'comment_notes_before=&comment_notes_after=' );
 
@@ -66,6 +66,6 @@ else : ?>
 
 		<p class="closed"><?php _e( 'Comments are closed.', 'koji' ); ?></p>
 
-	</div><!-- #respond -->
+	</div>!-- #respond -->
 
 <?php endif; ?>

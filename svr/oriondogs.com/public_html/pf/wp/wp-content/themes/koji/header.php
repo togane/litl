@@ -13,8 +13,8 @@ $html_class = is_admin_bar_showing() ? ' showing-admin-bar' : ''; ?>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 
 		<link rel="profile" href="http://gmpg.org/xfn/11">
-
 		<?php wp_head(); ?>
+		<link rel="stylesheet" href="https://pf.oriondogs.com/wp/wp-content/themes/koji/add.css" type="text/css" media="all">
 
 	</head>
 
@@ -52,10 +52,10 @@ $html_class = is_admin_bar_showing() ? ' showing-admin-bar' : ''; ?>
 					<?php endif; ?>
 
 					<button type="button" aria-pressed="false" class="toggle nav-toggle" data-toggle-target=".mobile-menu-wrapper" data-toggle-scroll-lock="true" data-toggle-attribute="">
-						<label>
+						<!-- <label>
 							<span class="show"><?php _e( 'Menu', 'koji' ); ?></span>
 							<span class="hide"><?php _e( 'Close', 'koji' ); ?></span>
-						</label>
+						</label> -->
 						<div class="bars">
 							<div class="bar"></div>
 							<div class="bar"></div>
@@ -102,7 +102,7 @@ $html_class = is_admin_bar_showing() ? ' showing-admin-bar' : ''; ?>
 
 					</div><!-- .header-inner-top -->
 
-					<div class="social-menu-wrapper">
+					<!-- <div class="social-menu-wrapper">
 
 						<?php
 
@@ -137,11 +137,11 @@ $html_class = is_admin_bar_showing() ? ' showing-admin-bar' : ''; ?>
 
 								?>
 
-							</ul><!-- .social-menu -->
+							</ul>!-- .social-menu --
 
 						<?php endif; ?>
 
-					</div><!-- .social-menu-wrapper -->
+					</div> --><!-- .social-menu-wrapper -->
 
 				</div><!-- .header-inner -->
 
