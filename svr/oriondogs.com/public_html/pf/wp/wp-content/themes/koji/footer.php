@@ -27,10 +27,10 @@
 				<p class="credits">
 					Copyright ©TonegawaKotoe All Rights Reserved.
 				</p><!-- .credits -->
-				<!-- <figure id="top_btn" style="display: flex;">
+				<figure id="top_btn" style="display: flex;">
 					<div><img src="https://pf.oriondogs.com/wp/wp-content/uploads/2019/12/up_arrow.png" alt="矢印"></div>
 					<figcaption>TOP</figcaption>
-				</figure> -->
+				</figure>
 
 				<!-- <p class="credits">
 					<?php
@@ -56,6 +56,14 @@
 			</script>
 		<?php else: ?>
 		<?php endif; ?>
+
+		<script>
+			$("#top_btn").click(function () {
+				var position = 0;
+				var speed = 600;
+				$("html,body").animate({scrollTop:position},speed);
+			});
+		</script>
 
 	</body>
 </html>

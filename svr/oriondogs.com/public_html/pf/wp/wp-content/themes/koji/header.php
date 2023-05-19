@@ -190,7 +190,7 @@ $html_class = is_admin_bar_showing() ? ' showing-admin-bar' : ''; ?>
 
 						<?php if ( $show_social_menu ) : ?>
 
-							<ul class="social-menu reset-list-style social-icons s-icons mobile">
+							<!-- <ul class="social-menu reset-list-style social-icons s-icons mobile">
 
 								<?php if ( ! $disable_search ) : ?>
 
@@ -201,7 +201,7 @@ $html_class = is_admin_bar_showing() ? ' showing-admin-bar' : ''; ?>
 
 								wp_nav_menu( $social_menu_args ); ?>
 
-							</ul><!-- .social-menu -->
+							</ul> --><!-- .social-menu -->
 
 						<?php endif; ?>
 
