@@ -27,10 +27,10 @@
 				<p class="credits">
 					Copyright ©TonegawaKotoe All Rights Reserved.
 				</p><!-- .credits -->
-				<!-- <figure id="top_btn" style="display: flex;">
+				<figure id="top_btn" style="display: flex;">
 					<div><img src="https://pf.oriondogs.com/wp/wp-content/uploads/2019/12/up_arrow.png" alt="矢印"></div>
 					<figcaption>TOP</figcaption>
-				</figure> -->
+				</figure>
 
 				<!-- <p class="credits">
 					<?php
@@ -43,6 +43,27 @@
 			<?php wp_footer(); ?>
 
 		</div><!-- #site-wrapper -->
+
+		<?php if(is_single()): ?>
+			<!-- 条件に当てはまる場合 -->
+			<link rel="stylesheet" id="koji-style-css" href="https://pf.oriondogs.com/wp/wp-content/themes/koji/assets/css/modaal.min.css" type="text/css" media="all" />
+			<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+			<script type="text/javascript" src="https://pf.oriondogs.com/wp/wp-content/themes/koji/assets/js/modaal.min.js" id="jquery-core-js"></script>
+			<script>
+				$('.gallery').modaal({
+					type: 'image'
+				});
+			</script>
+		<?php else: ?>
+		<?php endif; ?>
+
+		<script>
+			$("#top_btn").click(function () {
+				var position = 0;
+				var speed = 600;
+				$("html,body").animate({scrollTop:position},speed);
+			});
+		</script>
 
 	</body>
 </html>

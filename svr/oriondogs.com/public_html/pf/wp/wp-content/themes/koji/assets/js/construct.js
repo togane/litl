@@ -316,7 +316,7 @@ koji.mobileMenu = {
 	onToggle: function() {
 
 		$( '.mobile-menu-wrapper' ).on( 'will-be-toggled', function() {
-			window.scrollTo( 0, 0 );
+			// window.scrollTo( 0, 0 );
 		} );
 
 	},

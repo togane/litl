@@ -36,7 +36,7 @@ if ( $query_args['max_num_pages'] > $query_args['paged'] ) :
 
 			<button type="button" id="load-more" class="mfs-32 tfs-36 dfs-48 color-dark-gray color-black-hover" aria-controls="posts"><?php _e( 'Load more', 'koji' ); ?></button>
 
-			<p class="out-of-posts" aria-live="polite" aria-relevant="text"><?php _e( 'Nothing more to load.', 'koji' ); ?></p>
+			<!-- <p class="out-of-posts" aria-live="polite" aria-relevant="text"><?php _e( 'Nothing more to load.', 'koji' ); ?></p> -->
 
 			<div class="loading-icon">
 				<?php koji_loading_indicator(); ?>
